@@ -3,3 +3,32 @@
   width: 95vw;
   height: 90vh;
 }
+
+.intro {
+  margin: 2%;
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 55px;
+  margin: 0;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 2%;
+}

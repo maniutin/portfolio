@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: black;
+  margin-bottom: 1vh;
+
+  a {
+    color: black;
+    text-decoration: none;
+    text-underline-offset: 0.3rem;
+  }
+}

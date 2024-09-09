@@ -3,8 +3,8 @@ import "./Projects.scss";
 
 export default function Projects() {
   return (
-    <section className="projects">
+    <article className="projects">
       <p>Project</p>
-    </section>
+    </article>
   );
 }

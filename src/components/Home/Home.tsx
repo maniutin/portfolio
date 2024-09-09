@@ -3,8 +3,8 @@ import "./Home.scss";
 
 export default function Home() {
   return (
-    <section className="home">
+    <article className="home">
       <p>Home!</p>
-    </section>
+    </article>
   );
 }

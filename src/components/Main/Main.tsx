@@ -10,15 +10,19 @@ import Projects from "../Projects/Projects";
 export default function Main() {
   return (
     <div className="main">
+      <div className="intro">
+        <p className="name">Nick Maniutin</p>
+        <p className="title">Software Developer & Designer</p>
+      </div>
       <Router>
         <Nav />
-        <main>
+        <section className="content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </main>
+        </section>
       </Router>
     </div>
   );

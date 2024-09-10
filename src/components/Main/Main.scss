@@ -2,26 +2,23 @@
   border: 1px solid black;
   width: 95vw;
   height: 90vh;
+  animation: fadeIn 2s;
 }
 
 .intro {
   margin: 2%;
-}
-
-.name {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
   font-size: 55px;
+}
+
+.name {
   margin: 0;
 }
 
 .title {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
   font-size: 20px;
   margin: 0;
 }
@@ -31,4 +28,13 @@
   align-items: center;
   justify-content: flex-end;
   margin: 2%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

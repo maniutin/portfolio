@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./Main.scss";
 
 import Contact from "../Contact/Contact";
-import Home from "../Home/Home";
+import About from "../About/About";
 import Nav from "../Nav/Nav";
 import Projects from "../Projects/Projects";
 
@@ -18,7 +18,7 @@ export default function Main() {
         <Nav />
         <section className="content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

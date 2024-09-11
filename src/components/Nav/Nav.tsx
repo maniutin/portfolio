@@ -15,7 +15,7 @@ export default function Nav() {
               : {}
           }
         >
-          Home
+          About
         </NavLink>
       </div>
 
